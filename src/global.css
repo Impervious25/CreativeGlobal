@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@font-face {
+  font-family: "KyivType Sans";
+  src: url("../public/Dmitry Rastvortsev - KyivType Sans Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "KyivType Sans";
+  src: url("../public/Dmitry Rastvortsev - KyivType Sans Bold2.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "KyivType Sans";
+  src: url("../public/Dmitry Rastvortsev - KyivType Sans Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Neug Asia Demo";
+  src: url("../public/Neug Asia Demo.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-sen: Sen;
+  --font-inter: Inter;
+  --font-kyivtype-sans: "KyivType Sans";
+  --font-neug-asia-demo: "Neug Asia Demo";
+  --font-roboto: Roboto;
+  --heading-bold-h2: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 11px;
+  --font-size-base: 12px;
+  --font-size-lg: 14px;
+  --paragraph-body-size: 16px;
+  --font-size-2xl: 18px;
+  --font-size-3xl: 19.79px;
+  --font-size-4xl: 22.62px;
+  --font-size-5xl: 24px;
+  --font-size-6xl: 25.73px;
+  --font-size-7xl: 28px;
+  --font-size-8xl: 30.02px;
+  --font-size-9xl: 32px;
+  --font-size-10xl: 33.93px;
+  --heading-bold-h2-size: 56px;
+  --font-size-12xl: 68.61px;
+  --font-size-13xl: 96px;
+  --font-size-14xl: 136px;
+  --font-size-15xl: 218.4px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #e8eaed;
+  --color-gray-200: #ddd;
+  --color-gray-300: #808080;
+  --color-gray-400: #5f6368;
+  --color-gray-500: #5d5d5d;
+  --color-gray-600: #363434;
+  --color-gray-700: #2c3345;
+  --color-gray-800: #202124;
+  --color-gray-900: #1b1b1b;
+  --color-gray-1000: #17151d;
+  --color-gray-1100: #121212;
+  --color-gray-1200: rgba(255, 255, 255, 0.6);
+  --color-indigo-100: #1967d2;
+  --color-violet: #2092fb;
+  --color-black-100: rgba(0, 0, 0, 1);
+  --color-black-200: #000;
+
+  /* Gaps */
+  --gap-xs: 8px;
+  --gap-sm: 12px;
+  --gap-md: 15px;
+  --gap-lg: 25.73px;
+  --gap-xl: 53.6px;
+
+  /* Paddings */
+  --padding-2xs: 8px;
+  --padding-xs: 12.671879768371582px;
+  --padding-sm: 16px;
+  --padding-md: 17.152238845825195px;
+  --padding-lg: 21.440298080444336px;
+  --padding-xl: 24px;
+  --padding-2xl: 42.88059616088867px;
+
+  /* border radiuses */
+  --br-2xs: 5.36px;
+  --br-xs: 8.48px;
+  --br-sm: 8px;
+  --br-md: 10px;
+  --br-lg: 30px;
+  --br-xl: 40px;
+}
